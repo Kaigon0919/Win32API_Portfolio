@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{bdd3a1aa-0568-4368-8ec1-78139a07ddf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager">
+      <UniqueIdentifier>{93f22410-f311-4e24-8a7c-1be7030a8926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Data">
+      <UniqueIdentifier>{d9ff0aac-ce1a-4163-a12a-b94261701d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STD">
+      <UniqueIdentifier>{b527b195-77b9-46b8-9fba-a46a23adc7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy">
+      <UniqueIdentifier>{fe71eb36-d0fc-4f43-8b7e-593259161227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Actor">
+      <UniqueIdentifier>{4ea1d20f-f35e-4d20-a889-875ded0047da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level">
+      <UniqueIdentifier>{34dee7a7-a170-4968-8f48-d786f449922c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{5865afe4-dceb-4d9b-b63f-65ecd2e5ff99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Actor\Sub">
+      <UniqueIdentifier>{27154231-5f56-4696-9ed6-bfa66cfadda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Actor\Sub\Collision">
+      <UniqueIdentifier>{76bb5b7c-4084-49fe-bcec-6150fe3ce9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Actor\Sub\Render">
+      <UniqueIdentifier>{241418f0-b2ec-46ad-9e3e-818d32a6f5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Res">
+      <UniqueIdentifier>{67809498-48a1-4052-86b0-6e890fe78415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub">
+      <UniqueIdentifier>{2007fe97-7d60-4640-96b4-fb5871976a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\TestLevel">
+      <UniqueIdentifier>{9acd8b31-9028-45d7-9361-2eb592a5626a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\TestLevel\Actor">
+      <UniqueIdentifier>{aedd0e7c-1668-49f3-bd10-b7c546750283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Title">
+      <UniqueIdentifier>{a87c6c0e-baf2-41af-b3c8-7bd3ad1d0bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Title\Actor">
+      <UniqueIdentifier>{423fd132-fee2-46f3-aee3-f6dcb164963c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Dungeon">
+      <UniqueIdentifier>{9d9d73eb-66e8-41c7-b272-0e6d956c0a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Village">
+      <UniqueIdentifier>{6acb4637-30ba-46f7-a3c0-0e7f6e8f421c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Village\Actor">
+      <UniqueIdentifier>{a491e0bb-f98b-457e-9e69-070cc19503c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\GlobalActor">
+      <UniqueIdentifier>{3de86cc6-4266-47e9-955d-b9b2885adcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Res\Image">
+      <UniqueIdentifier>{c38c52d2-1a1b-4b6f-b6c8-f2d52bdded1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Res\Sound">
+      <UniqueIdentifier>{937b9c3a-ab01-4cd9-a5fd-5137258087fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\EditLevel">
+      <UniqueIdentifier>{c60d24bd-406e-4145-b520-69f9361d6c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\FileStream">
+      <UniqueIdentifier>{a8ddf114-2634-4fb2-a5fb-67df5cfd387f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\EditLevel\Actor">
+      <UniqueIdentifier>{aae95990-bc9d-4d49-9647-2a51f7b2e243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\GlobalActor\Monster">
+      <UniqueIdentifier>{fadc5846-2c38-47cf-aef5-b739a08ef7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\GlobalActor\Effect">
+      <UniqueIdentifier>{edb058e1-33a7-4eb6-b618-65c61ff297e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\GlobalActor\HUD">
+      <UniqueIdentifier>{7826eab8-4643-450d-827e-061c031b920b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\GlobalActor\Object">
+      <UniqueIdentifier>{fc1fca29-f38b-4673-b374-ccc08717693a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Dungeon\Stage1">
+      <UniqueIdentifier>{142b0c55-6d25-4166-8a48-5a55f65d7c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Dungeon\Stage2">
+      <UniqueIdentifier>{66031aa3-decc-4f8b-abcd-8ee319d7ec49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Dungeon\Stage3">
+      <UniqueIdentifier>{40578318-e0b3-49a5-9c1d-b6485dcca47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHierarchy\Level\Sub\Dungeon\BossStage">
+      <UniqueIdentifier>{f5ef9151-a067-4cf7-9a41-7a8f11281293}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SystemClass.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFramework.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>ObjectHierarchy\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>ObjectHierarchy\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="NameBase.h">
+      <Filter>ObjectHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateBase.h">
+      <Filter>ObjectHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorCollision.h">
+      <Filter>ObjectHierarchy\Actor\Sub\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorRenderer.h">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SubBullet.h">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MainBullet.h">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorSubBase.h">
+      <Filter>ObjectHierarchy\Actor\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="AniRenderer.h">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleRenderer.h">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel.h">
+      <Filter>ObjectHierarchy\Level\Sub\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine\Manager\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelHeaders.h">
+      <Filter>ObjectHierarchy\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonLevel.h">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMain.h">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleCredit.h">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleStart.h">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleQuit.h">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLevel.h">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="VilageLevel.h">
+      <Filter>ObjectHierarchy\Level\Sub\Village</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMouse.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMath.h">
+      <Filter>Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MathData.h">
+      <Filter>Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IsoMetricTileRenderer.h">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapRenderer.h">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTest.h">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameImage.h">
+      <Filter>Engine\Manager\Res\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Engine\Manager\Res\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSprite.h">
+      <Filter>Engine\Manager\Res\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>Engine\Manager\Res\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Engine\Manager\Res\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleOpenning.h">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditLevel.h">
+      <Filter>ObjectHierarchy\Level\Sub\EditLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBackGround.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFileStream.h">
+      <Filter>Engine\Manager\FileStream</Filter>
+    </ClInclude>
+    <ClInclude Include="IFStream.h">
+      <Filter>Engine\Manager\FileStream</Filter>
+    </ClInclude>
+    <ClInclude Include="OFStream.h">
+      <Filter>Engine\Manager\FileStream</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTileMap.h">
+      <Filter>ObjectHierarchy\Level\Sub\EditLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePawn.h">
+      <Filter>ObjectHierarchy\Actor\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffectActor.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageNumber.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpObject.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>ObjectHierarchy\Level\GlobalActor\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateHUD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyFramework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MyFramework.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFramework.cpp">
+      <Filter>STD</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>STD</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ObjectHierarchy\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>ObjectHierarchy\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="NameBase.cpp">
+      <Filter>ObjectHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateBase.cpp">
+      <Filter>ObjectHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorCollision.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorRenderer.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SubBullet.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MainBullet.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorSubBase.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="AniRenderer.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleRenderer.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\Manager\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass_Init.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass_Frame.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMath.cpp">
+      <Filter>Engine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonLevel.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMain.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleCredit.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleQuit.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLevel.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="VilageLevel.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Village</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMouse.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateFunc.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMouseStateFunc.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MathData.cpp">
+      <Filter>Engine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="IsoMetricTileRenderer.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapRenderer.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectTest.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\TestLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameImage.cpp">
+      <Filter>Engine\Manager\Res\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Engine\Manager\Res\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSprite.cpp">
+      <Filter>Engine\Manager\Res\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Engine\Manager\Res\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Engine\Manager\Res\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleOpenning.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLevel.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\EditLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBackGround.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFileStream.cpp">
+      <Filter>Engine\Manager\FileStream</Filter>
+    </ClCompile>
+    <ClCompile Include="IFStream.cpp">
+      <Filter>Engine\Manager\FileStream</Filter>
+    </ClCompile>
+    <ClCompile Include="OFStream.cpp">
+      <Filter>Engine\Manager\FileStream</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTileMap.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\EditLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePawn.cpp">
+      <Filter>ObjectHierarchy\Actor\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffectActor.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageNumber.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="arrow.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpObject.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStateFunc.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleStart.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Title\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>ObjectHierarchy\Level\Sub\Dungeon\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>ObjectHierarchy\Level\GlobalActor\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateHUD.cpp" />
+  </ItemGroup>
+</Project>
