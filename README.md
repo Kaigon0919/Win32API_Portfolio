@@ -2,6 +2,9 @@
 
 Win32API만을 이용하여 2D 게임 제작 학습을 목적으로 진행한 프로젝트.
 
+결과물 영상:
+https://youtu.be/42t2BG-gTWE?si=lsjPwsc-NhPYnsdv
+
 사용 기술 / 라이브러리
 
 Win32API: 게임 화면 출력 및 입력 처리
